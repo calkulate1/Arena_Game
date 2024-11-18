@@ -4,6 +4,8 @@ using System.Dynamic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ConsoleApp35.Enemies;
+using static ConsoleApp35.Enemies.Enemy;
 using ConsoleApp35.Weapons;
 
 namespace ConsoleApp35.characters
@@ -31,6 +33,7 @@ namespace ConsoleApp35.characters
             {
                 Weapon.WeaponAttack();
                 FullDamage = Damage + Weapon.WeaponDamage;
+                
             }
             else
             {
@@ -38,6 +41,5 @@ namespace ConsoleApp35.characters
                 BaseAttack();
             }
         }
-
     }
 }

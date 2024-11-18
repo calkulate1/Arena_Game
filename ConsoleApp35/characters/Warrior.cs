@@ -11,7 +11,7 @@ namespace ConsoleApp35.characters
         public Warrior()
         {
             Name = "Воин";
-            Damage = 10;
+            Damage = 50;
             Health = 100;
         }
 

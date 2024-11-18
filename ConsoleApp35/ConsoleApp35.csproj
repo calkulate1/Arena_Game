@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Enemies - Копировать\**" />
+    <EmbeddedResource Remove="Enemies - Копировать\**" />
+    <None Remove="Enemies - Копировать\**" />
+  </ItemGroup>
+
 </Project>
